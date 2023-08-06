@@ -1,0 +1,146 @@
+body {
+    background-color: #f4f4f4;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* 等价 */
+    font:bold 16px Arial,Helvetica,sans-serif;
+}
+
+
+
+.box1 {
+    background-color: antiquewhite;
+
+    color:brown;
+
+    border: 5px blue solid;
+    border-right: 5px red solid;
+    border-left : 8px green solid;
+    border-top : 15px yellow double;
+    border-bottom: 10px blue dotted;
+    border-bottom: dashed;
+    
+    margin-top:50px;
+}
+
+.box2 button {
+    background-color: #444444;
+    color:#f4f4f4;
+    padding:10px 15px;
+}
+
+.box2 button:hover {
+    background-color: red;
+}
+.box2 button:active {
+    background-color: green;
+}
+
+.box1 h1 {
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform:lowercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+}
+
+.box2 {
+    border: 5px dotted #cccccc;
+    padding-left: 5px;
+    border-radius: 35px;
+
+}
+
+.box2 h1{
+    text-align: center;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container2 {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.list a {
+    text-decoration: none;
+    color:#555555;
+}
+
+.list a:hover {
+    color:cyan;
+}
+
+.list ul li a:visited {
+    color:rgb(109, 128, 0);
+}
+
+.box3 .block {
+    float:left;
+    width: 33.3%;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+    border : 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#side-block {
+    float:right;
+    width: 30%;
+    border : 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.List3 li:nth-child(even){
+    background-color: pink;
+}
+
+.List3 li:first-child{
+    color: red;
+}
+
+.List3 li:nth-child(3){
+    background-color: green;
+}
+
+.position-box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #555555;
+    position:relative;
+    top:100px
+
+}
+
+.position-box h1{
+    position:absolute;
+    top:50px
+}
+
+.position-box h2 {
+    position:absolute;
+}
+
+#fixed {
+    top: 500px;
+    position: fixed;
+}
