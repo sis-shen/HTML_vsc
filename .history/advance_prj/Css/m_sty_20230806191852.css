@@ -1,0 +1,68 @@
+
+body{
+    margin: auto;
+}
+
+.fix{
+    clear: both;
+}
+
+#but{
+    background-image: url("images/主页.png");
+    color: rgba(255, 0, 0, 0);
+}
+
+#img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.top-box {
+    width: 848px;
+    height: 10px;
+    margin:auto;
+    background-image: url("images/canteen.jpg");
+    padding-bottom: 12em;
+}
+
+#menu {
+    margin:0;
+    text-align: center;
+    color:#595959;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-attachment: fixed;
+}
+
+.option1 {
+    margin:auto;
+    margin-top: 10px;
+    width: 1000px;
+    height: 200px;
+    border: 4px solid rgb(176, 176, 176);
+}
+
+.option1 .dsc1{
+    float: right ;
+    width: 720px;
+    height: 200px;
+}
+
+
+.option1 ,.dsc1 p{
+    margin-bottom: 3em;
+}
+
+.option1 .dsc1 h3{
+    float: left;
+    text-align: right;
+}
+
+.img1{
+    float: right;
+    height: 200px;
+    width: 280px;
+}
+
