@@ -1,3 +1,4 @@
+
 body {
     box-sizing: border-box;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -127,6 +128,13 @@ body {
     text-align: center;
 }
 
+/* ================================== */
+
+.top2-box{
+    background-color: #ebebeb;
+    padding-bottom: 50px;
+}
+
 .top2-box .up-box
 {
 
@@ -182,4 +190,50 @@ body {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
+    border: 0;
+    margin-left: 350px;
+}
+
+.up-left button:hover{
+    background-color:rgb(213, 139, 0);
+
+}
+
+.down-box{
+    display: flex;
+}
+
+
+
+.down-right{
+    margin-top: 50px;
+    width: 45%;
+    /* border: red solid 10px; */
+    display: flex;
+
+}
+
+.down-right .left{
+    width: 45%;
+    /* margin-left:5%; */
+    margin-right: 10%;
+    /* border: red solid 10px; */
+
+}
+
+.down-right .right{
+    width: 45%;
+    /* border: red solid 10px; */
+
+}
+
+.down-left{
+    width: 55%;
+    max-height: 250px;
+}
+
+.down-left img{
+    width: 90%;
+    position: relative;
+    top:-10em
 }
