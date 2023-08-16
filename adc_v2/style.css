@@ -9,6 +9,8 @@ body {
 
 }
 
+/* =======top-box===== */
+
 .top-box{
     margin:auto;
     
@@ -128,7 +130,9 @@ body {
     text-align: center;
 }
 
-/* ================================== */
+
+
+/* ===========top2-box============== */
 
 .top2-box{
     background-color: #ebebeb;
@@ -236,4 +240,42 @@ body {
     width: 90%;
     position: relative;
     top:-10em
+}
+
+.cuisine-box {
+    width: 100%;
+
+    display: flex;
+
+    .left-dish-box{
+        width: 50%;
+        border: red solid 10px;
+        
+
+        .uper{
+            display: flex;
+            margin: 0;
+
+            .left{
+                width: 50%;
+                
+                img{
+                    width: 100%;
+                }
+            }
+
+            .right{
+                width: 50%;
+            }
+        }
+
+        .downer{
+
+        }
+
+    }
+
+    .right-p{
+        width: 50%;
+    }
 }
