@@ -1,0 +1,34 @@
+
+
+
+.sub-topbox{
+
+
+    .sub-nav{
+        background-color: rgb(55, 3, 3);
+        background-image: url("img/home.png");
+        background-repeat: no-repeat;
+    
+        padding-left: 21px;
+
+        .home{
+            color: white;
+        }
+    }
+    .title-box
+    {
+        display: flex;
+
+        .left-word{
+            width: 40%;
+        }
+
+        .mid-word{
+            width: 20%;
+        }
+
+        .right-word{
+            width: 40%;
+        }
+    }
+}

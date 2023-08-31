@@ -1,0 +1,15 @@
+
+body{
+    background-repeat: no-repeat;
+}
+
+
+.sub-topbox{
+    background-color: rgb(55, 3, 3);
+    background-image: url("img/home.png");
+
+    .home{
+    background-repeat: no-repeat;
+
+    }
+}

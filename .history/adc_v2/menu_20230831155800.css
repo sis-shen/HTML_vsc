@@ -1,0 +1,71 @@
+
+
+.sub-nav p{
+    margin-bottom: 0;
+}
+
+.sub-topbox{
+
+
+    .sub-nav{
+        background-color: rgb(55, 3, 3);
+        background-image: url("img/home.png");
+        background-repeat: no-repeat;
+    
+        padding-left: 21px;
+
+        .home{
+            color: white;
+            margin-bottom: 0;
+
+        }
+        margin-bottom: 0;
+    }
+    .title-box
+    {
+        padding-bottom: 300px;
+        background-repeat: no-repeat;
+        background-image: url("img/chicken_soup.jpg");
+
+        margin:0 auto;
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+        font-family: 微软雅黑;
+
+        .left-word{
+        }
+
+        .mid-word{
+            display: flex;
+        }
+
+        .right-word{
+        }
+    }
+}
+
+.menu-box{
+    min-height: 1000px;
+    background-color: #f4f4f4;
+
+    .specil-dish{
+        border: 5px solid red;
+        min-height: 50px;
+        display: flex;
+
+        .desc{
+            margin-top: 0;
+            margin-left: 10px;
+        }
+
+    }
+
+    .top-line{
+        height: 50px;
+        background-image: url("img/red_string.png");
+    }
+}
